@@ -44,7 +44,6 @@
           "foreground": "#011627",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "branch_icon": "\ue725 ",
             "fetch_status": true,
             "fetch_upstream_icon": true
           },
@@ -78,7 +77,7 @@
           "invert_powerline": true,
           "leading_diamond": " \ue0b6",
           "style": "diamond",
-          "template": " \uf5ef {{ .CurrentDate | date .Format }} ",
+          "template": "{{ .CurrentDate | date .Format }} ",
           "trailing_diamond": "\ue0b4",
           "type": "time"
         }
@@ -104,7 +103,7 @@
             "always_enabled": true
           },
           "style": "plain",
-          "template": "\u276f{{ if gt .Code 0 }}\uf00d{{ else }}\uf42e{{ end }} ",
+          "template": "\u276f",
           "type": "exit"
         }
       ],
