@@ -24,6 +24,7 @@ Set-Alias grep findstr
 Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
 Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 Set-Alias glazeWM 'C:\bin\GlazeWM\GlazeWM_x64_1.10.0.exe'
+Set-Alias make 'C:\mingw64\bin\mingw32-make.exe'
 
 # Utilities
 function which ($command) {
